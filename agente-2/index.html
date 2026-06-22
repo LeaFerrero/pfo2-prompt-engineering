@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Orden del Umbral | Gremio de Aventureros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER / NAVEGACIÓN
+  ═══════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <div class="logo">
+        <span class="logo-rune">⚔</span>
+        <span class="logo-text">La Orden del Umbral</span>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#gremio">El Gremio</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#taberna">La Taberna</a></li>
+          <li><a href="#tablon">Tablón</a></li>
+          <li><a href="#tablon" class="nav-cta">Unirse</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO SECTION
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-label="Sección principal">
+      <div class="hero-bg-overlay"></div>
+      <div class="rune-border rune-border--top"></div>
+      <div class="rune-border rune-border--bottom"></div>
+
+      <div class="hero-content container fade-in">
+        <p class="hero-eyebrow">— Est. en el Año 847 de la Era de las Sombras —</p>
+        <h1 class="hero-title">
+          <span class="title-line">Donde los Mortales</span>
+          <span class="title-line title-line--gold">Se Forjan en Leyenda</span>
+        </h1>
+        <p class="hero-subtitle">
+          El mundo sangra. Los reinos caen. Los dioses guardan silencio.<br />
+          Solo los más audaces se atreven a cruzar el Umbral.
+        </p>
+        <div class="hero-actions">
+          <a href="#tablon" class="btn btn--primary">
+            <span class="btn-inner">Comenzar la Misión</span>
+          </a>
+          <a href="#gremio" class="btn btn--ghost">Conocer el Gremio</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">847</span>
+            <span class="stat-label">Años de Historia</span>
+          </div>
+          <div class="stat-divider">✦</div>
+          <div class="stat">
+            <span class="stat-number">2.400+</span>
+            <span class="stat-label">Misiones Completadas</span>
+          </div>
+          <div class="stat-divider">✦</div>
+          <div class="stat">
+            <span class="stat-number">12</span>
+            <span class="stat-label">Reinos Aliados</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Descender</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         EL GREMIO / SOBRE NOSOTROS
+    ═══════════════════════════════════════════ -->
+    <section class="section gremio" id="gremio" aria-label="Sobre el Gremio">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">✦ Nuestra Facción ✦</span>
+          <h2 class="section-title">El Gremio del Umbral</h2>
+          <div class="title-ornament" aria-hidden="true"></div>
+        </div>
+
+        <div class="gremio-grid reveal">
+          <div class="gremio-text">
+            <p class="lead-text">
+              Forjados en el crisol de la guerra y templados por la magia antigua, somos la última línea
+              entre la civilización y el caos que acecha en las profundidades.
+            </p>
+            <p>
+              Fundado en el año 847 de la Era de las Sombras por la archimaga Seraphina Voss y el
+              legendario paladín Aldric el Inquebrantable, nuestro gremio ha protegido a los inocentes,
+              derrocado a tiranos y sellado puertas que nunca debieron abrirse.
+            </p>
+            <p>
+              No discriminamos raza, clase ni credo. Si tu corazón es valiente y tu propósito justo,
+              el Umbral te recibirá. Aquí, los débiles se convierten en guerreros; los guerreros, en héroes;
+              los héroes, en mitos que los bardos cantarán por eternidades.
+            </p>
+            <div class="gremio-credo">
+              <blockquote>
+                "Por el Honor. Por la Gloria. Por los que ya no pueden luchar."
+                <cite>— Juramento del Umbral, recitado desde el Año I</cite>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="gremio-emblema">
+            <div class="emblema-frame">
+              <div class="emblema-inner">
+                <div class="emblema-symbol" aria-hidden="true">⚜</div>
+                <div class="emblema-ring emblema-ring--1" aria-hidden="true"></div>
+                <div class="emblema-ring emblema-ring--2" aria-hidden="true"></div>
+                <div class="emblema-runes" aria-hidden="true">
+                  <span>ᚠ</span><span>ᚢ</span><span>ᚦ</span><span>ᚨ</span>
+                  <span>ᚱ</span><span>ᚲ</span><span>ᚷ</span><span>ᚹ</span>
+                </div>
+              </div>
+            </div>
+            <div class="emblema-labels">
+              <div class="emblema-label">Fundado: Año 847</div>
+              <div class="emblema-label">Sede: Ciudadela Voss</div>
+              <div class="emblema-label">Rango máx: Gran Maestro</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         HABILIDADES / SERVICIOS
+    ═══════════════════════════════════════════ -->
+    <section class="section habilidades" id="habilidades" aria-label="Habilidades y Servicios">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">✦ Disciplinas del Gremio ✦</span>
+          <h2 class="section-title">Clases & Habilidades</h2>
+          <div class="title-ornament" aria-hidden="true"></div>
+          <p class="section-desc">
+            Cada aventurero trae una especialización única. Juntos, somos invencibles.
+          </p>
+        </div>
+
+        <div class="habilidades-grid">
+
+          <article class="skill-card reveal" data-class="paladin">
+            <div class="skill-card__header">
+              <div class="skill-icon" aria-hidden="true">🛡</div>
+              <div class="skill-badge">Nivel X</div>
+            </div>
+            <h3 class="skill-card__title">Paladín Guardián</h3>
+            <p class="skill-card__desc">
+              La vanguardia del grupo. Nuestros paladines absorben el daño, bendicen a los aliados
+              y garantizan que ninguna misión termine en tragedia.
+            </p>
+            <ul class="skill-list">
+              <li>Aura de Protección Sagrada</li>
+              <li>Imposición de Manos</li>
+              <li>Juramento Inquebrantable</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-class="mago">
+            <div class="skill-card__header">
+              <div class="skill-icon" aria-hidden="true">🔮</div>
+              <div class="skill-badge">Nivel IX</div>
+            </div>
+            <h3 class="skill-card__title">Archimago Arcano</h3>
+            <p class="skill-card__desc">
+              Tejedores de la magia primordial. Doblan la realidad a su voluntad y convierten las
+              amenazas más oscuras en cenizas con un chasquido de dedos.
+            </p>
+            <ul class="skill-list">
+              <li>Bola de Fuego Cataclísmica</li>
+              <li>Conjuro de Tiempo Detenido</li>
+              <li>Portal Dimensional</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-class="ladron">
+            <div class="skill-card__header">
+              <div class="skill-icon" aria-hidden="true">🗡</div>
+              <div class="skill-badge">Nivel VIII</div>
+            </div>
+            <h3 class="skill-card__title">Pícaro de las Sombras</h3>
+            <p class="skill-card__desc">
+              Lo que no pueden ver, no pueden detener. Nuestros pícaros se mueven entre las sombras
+              como el viento, extrayendo secretos y neutralizando amenazas silenciosamente.
+            </p>
+            <ul class="skill-list">
+              <li>Ataque Furtivo Mortal</li>
+              <li>Paso Fantasmal</li>
+              <li>Maestría en Venenos</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-class="druida">
+            <div class="skill-card__header">
+              <div class="skill-icon" aria-hidden="true">🌿</div>
+              <div class="skill-badge">Nivel IX</div>
+            </div>
+            <h3 class="skill-card__title">Druida Primigenio</h3>
+            <p class="skill-card__desc">
+              La naturaleza misma como aliada. Los druidas del Umbral se comunican con espíritus
+              animales y controlan los elementos con una autoridad que desafía a los dioses menores.
+            </p>
+            <ul class="skill-list">
+              <li>Forma Salvaje Ancestral</li>
+              <li>Tormenta de Espinas</li>
+              <li>Comunión con la Tierra</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-class="bardo">
+            <div class="skill-card__header">
+              <div class="skill-icon" aria-hidden="true">🎵</div>
+              <div class="skill-badge">Nivel VII</div>
+            </div>
+            <h3 class="skill-card__title">Bardo Inspirador</h3>
+            <p class="skill-card__desc">
+              La música como arma, el carisma como escudo. Los bardos elevan a sus compañeros con
+              canciones que hacen temblar a los dioses y quiebran la voluntad de los demonios.
+            </p>
+            <ul class="skill-list">
+              <li>Palabras de Aliento Épico</li>
+              <li>Canto de Contrahechizo</li>
+              <li>Inspiración Divina</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" data-class="barbaro">
+            <div class="skill-card__header">
+              <div class="skill-icon" aria-hidden="true">⚡</div>
+              <div class="skill-badge">Nivel X</div>
+            </div>
+            <h3 class="skill-card__title">Bárbaro Berserker</h3>
+            <p class="skill-card__desc">
+              Cuando la furia toma el control, los ejércitos enteros huyen. Nuestros berserkers
+              canalizan una rabia ancestral que los hace casi inmortales en combate.
+            </p>
+            <ul class="skill-list">
+              <li>Frenético Implacable</li>
+              <li>Resistencia Brutal</li>
+              <li>Tótem del Oso Eterno</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         TABERNA / TESTIMONIOS
+    ═══════════════════════════════════════════ -->
+    <section class="section taberna" id="taberna" aria-label="Testimonios de Aventureros">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">✦ La Taberna del Dragón Cojo ✦</span>
+          <h2 class="section-title">Voces de los Supervivientes</h2>
+          <div class="title-ornament" aria-hidden="true"></div>
+          <p class="section-desc">
+            Los bardos registran sus historias. Los taberneros sirven sus palabras.
+          </p>
+        </div>
+
+        <div class="testimonios-grid">
+
+          <article class="testimonio-card reveal">
+            <div class="testimonio-stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonio-texto">
+              "Contraté al Gremio para rescatar a mi hija de las Ruinas de Malachar. No solo la
+              encontraron: derrotaron al liche que la tenía cautiva, sellaron su portal dimensional y
+              me devolvieron su grimorio maldito con un lazo. Servicio impecable."
+            </blockquote>
+            <footer class="testimonio-footer">
+              <div class="testimonio-avatar" aria-hidden="true">🧙</div>
+              <div class="testimonio-info">
+                <strong>Lord Edwyn Ashmore</strong>
+                <span>Gobernador de Thornhaven · Misión: Rescate en las Ruinas</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonio-card reveal">
+            <div class="testimonio-stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonio-texto">
+              "Era un simple granjero hasta que los no-muertos asolaron mi aldea. El Umbral respondió
+              al tercer amanecer. Vi a su paladina enfrentarse sola a un espectro ancestral y ganar.
+              Ahora soy su aprendiz. Cambió mi vida para siempre."
+            </blockquote>
+            <footer class="testimonio-footer">
+              <div class="testimonio-avatar" aria-hidden="true">⚔️</div>
+              <div class="testimonio-info">
+                <strong>Maren de Veldor</strong>
+                <span>Aprendiz del Gremio · Ex-granjero de Millhaven</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonio-card reveal">
+            <div class="testimonio-stars" aria-label="4 de 5 estrellas">
+              <span aria-hidden="true">★★★★☆</span>
+            </div>
+            <blockquote class="testimonio-texto">
+              "Solicité escolta para transportar el Orbe de Andúril a través del Bosque Susurrante.
+              Lo lograron. Perdieron a uno de sus pícaros en el camino —descanse en gloria—, pero el
+              Orbe llegó intacto. Son profesionales de la muerte, en el mejor sentido posible."
+            </blockquote>
+            <footer class="testimonio-footer">
+              <div class="testimonio-avatar" aria-hidden="true">👑</div>
+              <div class="testimonio-info">
+                <strong>Archimaga Seré Lunara</strong>
+                <span>Cónclave de los Siete · Torre de las Estrellas Caídas</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonio-card reveal">
+            <div class="testimonio-stars" aria-label="5 de 5 estrellas">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonio-texto">
+              "Fui contratado para evaluar sus capacidades de forma anónima. Me infiltré como cliente.
+              A las dos horas me habían descubierto, ofrecido trabajo y servido el mejor estofado de
+              dragón que he probado. No pude resistirme. Llevo tres años con ellos."
+            </blockquote>
+            <footer class="testimonio-footer">
+              <div class="testimonio-avatar" aria-hidden="true">🕵️</div>
+              <div class="testimonio-info">
+                <strong>Sombra Sin Nombre</strong>
+                <span>Agente Encubierto · Ahora Maestre de Inteligencia</span>
+              </div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         TABLÓN DE ANUNCIOS / FORMULARIO
+    ═══════════════════════════════════════════ -->
+    <section class="section tablon" id="tablon" aria-label="Formulario de Contacto">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">✦ El Tablón de Anuncios ✦</span>
+          <h2 class="section-title">Envía tu Pergamino</h2>
+          <div class="title-ornament" aria-hidden="true"></div>
+          <p class="section-desc">
+            Si tienes una misión que requiere héroes, o deseas unirte a nuestras filas,
+            fija tu mensaje al tablón. Un emisario responderá antes del próximo amanecer.
+          </p>
+        </div>
+
+        <div class="tablon-wrapper reveal">
+          <div class="tablon-decoraciones" aria-hidden="true">
+            <div class="tachuela tachuela--tl"></div>
+            <div class="tachuela tachuela--tr"></div>
+            <div class="tachuela tachuela--bl"></div>
+            <div class="tachuela tachuela--br"></div>
+          </div>
+
+          <form class="pergamino-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre" class="form-label">
+                  <span class="label-rune" aria-hidden="true">ᚾ</span>
+                  Nombre del Aventurero
+                </label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  class="form-input"
+                  placeholder="Tu nombre o alias"
+                  autocomplete="name"
+                  required
+                />
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">
+                  <span class="label-rune" aria-hidden="true">ᛖ</span>
+                  Paloma Mensajera (Email)
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="tu@correo.reino"
+                  autocomplete="email"
+                  required
+                />
+                <span class="form-error" aria-live="polite"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="clase" class="form-label">
+                <span class="label-rune" aria-hidden="true">ᚲ</span>
+                Clase de Misión
+              </label>
+              <div class="select-wrapper">
+                <select id="clase" name="clase" class="form-select">
+                  <option value="" disabled selected>— Selecciona el tipo de misión —</option>
+                  <option value="rescate">Rescate y Recuperación</option>
+                  <option value="escolta">Escolta Armada</option>
+                  <option value="exploracion">Exploración de Mazmorra</option>
+                  <option value="eliminacion">Neutralización de Amenaza</option>
+                  <option value="diplomatica">Misión Diplomática</option>
+                  <option value="reclutamiento">Solicitud de Membresía</option>
+                </select>
+                <span class="select-arrow" aria-hidden="true">⌄</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje" class="form-label">
+                <span class="label-rune" aria-hidden="true">ᛗ</span>
+                Tu Pergamino (Mensaje)
+              </label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                class="form-textarea"
+                rows="6"
+                placeholder="Describe tu misión, el peligro que enfrentas, o lo que buscas en el Gremio..."
+                required
+              ></textarea>
+              <span class="form-error" aria-live="polite"></span>
+            </div>
+
+            <div class="form-footer">
+              <p class="form-disclaimer">
+                <span aria-hidden="true">📜</span>
+                Al fijar tu pergamino, aceptas el <em>Código de Honor del Umbral</em> y confirmas que
+                tu misión no viola las Leyes Arcanas del Cónclave.
+              </p>
+              <button type="submit" class="btn btn--primary btn--large" id="submit-btn">
+                <span class="btn-inner">Sellar y Enviar</span>
+              </button>
+            </div>
+          </form>
+
+          <div class="form-success" id="form-success" aria-live="polite" hidden>
+            <div class="success-icon" aria-hidden="true">⚜</div>
+            <h3>¡Pergamino Sellado!</h3>
+            <p>Tu mensaje ha sido entregado al Consejo del Umbral. Un emisario contactará contigo antes del próximo amanecer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="site-footer" aria-label="Pie de página">
+    <div class="footer-ornament top" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-rune" aria-hidden="true">⚔</span>
+            <span>La Orden del Umbral</span>
+          </div>
+          <p class="footer-tagline">
+            Forjando leyendas desde el Año 847 de la Era de las Sombras.
+            Donde el valor no tiene precio y la gloria es eterna.
+          </p>
+          <div class="footer-social" aria-label="Reinos Aliados">
+            <a href="#" class="social-link" aria-label="Reino de los Bardos">🪕</a>
+            <a href="#" class="social-link" aria-label="Cónclave Arcano">🔮</a>
+            <a href="#" class="social-link" aria-label="Orden del Dragón">🐉</a>
+            <a href="#" class="social-link" aria-label="Cofradía de los Magos">📜</a>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Navegación del footer">
+          <h4 class="footer-nav__title">El Gremio</h4>
+          <ul>
+            <li><a href="#gremio">Nuestra Historia</a></li>
+            <li><a href="#habilidades">Clases & Habilidades</a></li>
+            <li><a href="#taberna">Testimonios</a></li>
+            <li><a href="#tablon">Unirse al Gremio</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="Reinos Aliados">
+          <h4 class="footer-nav__title">Reinos Aliados</h4>
+          <ul>
+            <li><a href="#">La Gran Biblioteca de Voss</a></li>
+            <li><a href="#">El Cónclave de los Siete</a></li>
+            <li><a href="#">Orden de la Llama Sagrada</a></li>
+            <li><a href="#">El Mercado de las Sombras</a></li>
+            <li><a href="#">Hermandad del Acero Vivo</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-nav">
+          <h4 class="footer-nav__title">Leyes & Códigos</h4>
+          <ul>
+            <li><a href="#">Código de Honor</a></li>
+            <li><a href="#">Política de Misiones</a></li>
+            <li><a href="#">Tarifas del Gremio</a></li>
+            <li><a href="#">Protección de Pergaminos</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-divider" aria-hidden="true">
+          <span>⚔ ✦ ⚔</span>
+        </div>
+        <p class="footer-copy">
+          &copy; Año 847–2025 <strong>La Orden del Umbral</strong>. Todos los derechos reservados bajo las Leyes Arcanas del Cónclave.
+          Ninguna parte de este grimorio puede ser reproducida sin el sello del Gran Maestro.
+        </p>
+        <p class="footer-disclaimer">
+          Los aventureros caídos en misión serán recordados en el <em>Libro de los Héroes</em>.
+          El Gremio no se responsabiliza por maldiciones adquiridas, deudas de karma o transformaciones líquidas accidentales.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

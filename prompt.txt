@@ -1,25 +1,3 @@
-# PFO2: Prompt Engineering en Agentes de IA
-
-Repositorio de la Práctica Formativa Obligatoria 2. El objetivo de este proyecto es diseñar y
-estructurar un único prompt inicial de alta precisión para generar una Landing Page,
-ejecutándolo en dos agentes de desarrollo distintos para comparar su capacidad de resolución autónoma.
-
-## Datos del Estudiante
-
-- **Nombre y Apellido:** Leandro Raúl Ferrero
-- **Institución:** IFTS N.° 29
-- **Carrera:** Tecnicatura Superior en Desarrollo de Software
-- **Comisión:** D
-
-## Deploy Unificado
-
-🔗 **[Link al deploy en Vercel]([TU_LINK_DE_VERCEL_AQUI])**
-
-_(El enlace dirige a la portada principal que contiene los accesos al texto del prompt y a las dos Landing Pages generadas)._
-
-## Prompt Exacto Utilizado
-
-```text
 # ROL
 Eres un Desarrollador Frontend Senior experto en HTML, CSS y JavaScript Vanilla y diseño UI/UX, especializado en interfaces inmersivas. Tu objetivo es escribir código limpio, modular y completamente funcional desde el primer intento.
 # TAREA
@@ -48,4 +26,3 @@ La página debe contener obligatoriamente las siguientes secciones en orden desc
 - El código debe ser completo, sin marcadores de posición como "/* tu código aquí */".
 - Entregar el código listo para ser renderizado.
 - El código debe entregarse separado claramente en los bloques correspondientes a index.html, style.css y script.js.
-```
