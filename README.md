@@ -9,6 +9,7 @@ ejecutándolo en dos agentes de desarrollo distintos para comparar su capacidad 
 - **Nombre y Apellido:** Leandro Raúl Ferrero
 - **Institución:** IFTS N.° 29
 - **Carrera:** Tecnicatura Superior en Desarrollo de Software
+- **Materia:** Desarrollo de Sistemas Web (Front End)
 - **Comisión:** D
 
 ## Deploy Unificado
