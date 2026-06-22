@@ -54,3 +54,11 @@ La página debe contener obligatoriamente las siguientes secciones en orden desc
 - Entregar el código listo para ser renderizado.
 - El código debe entregarse separado claramente en los bloques correspondientes a index.html, style.css y script.js.
 ```
+
+## Capturas de Pantalla
+
+### Agente 1: Codex (Modelo GPT-5.5)
+![Captura de la Landing Page generada por Codex](./img/landing-codex.png)
+
+### Agente 2: Claude Code (Modelo Sonnet 4.6)
+![Captura de la Landing Page generada por Claude Code](./img/landing-claude.png)
