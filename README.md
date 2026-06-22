@@ -81,6 +81,7 @@ descendente:
 - Entregar el código listo para ser renderizado.
 - El código debe entregarse separado claramente en los bloques correspondientes
   a index.html, style.css y script.js.
+```
 
 ## Capturas de Pantalla
 
