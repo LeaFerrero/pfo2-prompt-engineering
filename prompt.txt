@@ -8,7 +8,7 @@ Desarrollar una Landing Page estática y responsiva con una temática estricta d
 - Paleta de colores: Tonos oscuros (gris piedra de mazmorra, negro profundo), detalles en dorado, latón o ámbar (magia/fuego), y fondos que simulen texturas de pergaminos antiguos o madera para los contenedores.
 - Tipografía: Utilizar fuentes de Google Fonts. Una fuente serif clásica o de estilo medieval para los títulos (ej. Cinzel, Merriweather, Playfair Display) y una fuente sans-serif altamente legible para los párrafos de texto.
 - Estilo visual: La interfaz debe recordar a juegos de rol de alta calidad (estilo Baldur's Gate 3, Dungeons and Dragons o El señor de los anillos). Incluir bordes ornamentados en las tarjetas, botones que parezcan placas de metal o sellos de cera, y sombras pronunciadas (box-shadow) para dar profundidad.
-- Copywriting (Textos): El contenido generado por defecto debe utilizar vocabulario de fantasía épica.
+- Copywriting (Textos): El contenido generado por defecto debe utilizar vocabulario de fantasía épica. El HTML debe tener enlazados correctamente el CSS y el JS.
 
 # REQUISITOS TÉCNICOS
 - Framework: HTML5 semántico, CSS3 puro y JavaScript Vanilla (estrictamente sin frameworks ni librerías).
